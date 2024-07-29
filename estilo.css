@@ -18,7 +18,7 @@ body{
 .Titulo{
     color: white;
     text-align: center;
-    font-weight: 600;
+    font-weight: 600%;
     font-size: 80%;
 
 }
@@ -27,7 +27,7 @@ body{
     text-align: center;
     border: solid rgb(255, 255, 255) 5px;
     box-shadow: 15% 15%;
-    font-weight: 400;
+    font-weight: 400%;
     font-size: 55%;
 }
 .SetaD{
