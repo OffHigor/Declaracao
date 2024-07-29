@@ -4,9 +4,9 @@
     box-sizing:0;
 }
 body{
-    width: 90vw;
+    width: 90%;
     background-image: url("Imagens/Amor\ plano.jfif");
-    height: 255vh;
+    height: 150vh;
     background-size: 100%;
     background-repeat: no-repeat;
     
@@ -19,16 +19,16 @@ body{
     color: white;
     text-align: center;
     font-weight: 600;
-    font-size: 80px;
+    font-size: 80%;
 
 }
 .Texto{
     color: rgb(255, 255, 255);
     text-align: center;
     border: solid rgb(255, 255, 255) 5px;
-    box-shadow: 15px 15px;
+    box-shadow: 15% 15%;
     font-weight: 400;
-    font-size: 55px;
+    font-size: 55%;
 }
 .SetaD{
     width: 5%;
