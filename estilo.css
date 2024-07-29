@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:0;
+}
+body{
+    width: 90vw;
+    background-image: url("Imagens/Amor\ plano.jfif");
+    height: 255vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+@import url(Fontes/OpenSans-VariableFont_wdth\,wght.ttf);
+body{
+    font-family: "Open Sans", sans-serif
+}
+.Titulo{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 80px;
+
+}
+.Texto{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: solid rgb(255, 255, 255) 5px;
+    box-shadow: 15px 15px;
+    font-weight: 400;
+    font-size: 55px;
+}
+.SetaD{
+    width: 5%;
+}
