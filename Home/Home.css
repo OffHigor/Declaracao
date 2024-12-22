@@ -1,0 +1,35 @@
+body{
+    background-color: #EEE2DF;
+}
+.navbar-expand-sm{
+    background-color: #5B61B2;
+}
+.BlocoImagemNos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.IconesNos{
+    display: flex;
+    justify-content: space-between;
+}
+.IconesInicial{
+    width: 33%;
+    height: 400px;
+}
+@media(max-width: 580px){
+    .BlocoImagemNos{
+        padding: 40px 40px;
+    }
+    .IconesInicial{
+        height: 180px;
+    }
+}
+@media(min-width: 581px){
+    .BlocoImagemNos{
+        padding: 50px 120px;
+    }
+    .IconesInicial{
+        height: 350px;
+    }
+}
