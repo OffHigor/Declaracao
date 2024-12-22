@@ -12,6 +12,7 @@ body{
 .IconesNos{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .IconesInicial{
     width: 33%;
@@ -26,10 +27,44 @@ body{
     }
 }
 @media(min-width: 581px){
+    .BlocoApresentacaoAmor{
+        display: flex;
+        height: 400px;
+    }
+    .ImgApresentacao{
+        width: 65%;
+        height: 90%;
+        border-radius: 100%;
+        
+    }
     .BlocoImagemNos{
         padding: 50px 120px;
     }
     .IconesInicial{
         height: 350px;
     }
+}
+.i{
+   width: 200px;
+   height: 200px;
+}
+.BlocoApresentacaoAmor{
+    background-color: #5B61B2;
+}
+.ImagemApresentacao{
+    display: flex;
+    align-items: center;
+}
+.TextoApresentacao{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.Capa{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    
 }
