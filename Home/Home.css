@@ -44,9 +44,10 @@ body{
         height: 350px;
     }
 }
-.i{
+.seta{
    width: 200px;
    height: 200px;
+   color: blue;
 }
 .BlocoApresentacaoAmor{
     background-color: #5B61B2;
@@ -82,4 +83,27 @@ body{
     margin-right: 0px;
     display: none;
     justify-content: center;
+}
+.BlocoCarta{
+    display: flex;
+    flex-direction: column;
+}
+.ImagemCarta{
+    display: flex;
+    justify-content: center;
+}
+.ImgCarta{
+    width: 512px;
+    height: 512px;
+}
+.BotaoCarta{
+    display: flex;
+    justify-content: center;
+}
+
+.BlocoRodaPe{
+    background-color: #5B61B2;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
 }
