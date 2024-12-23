@@ -68,3 +68,18 @@ body{
     
     
 }
+.Tamanho{
+    width: 100%;
+    height: 100%;
+}
+.central{
+    display: flex;
+    justify-content: center;
+}
+.tamanhoblococarrosel{
+    width: 450px;
+    height: 350px;
+    margin-right: 0px;
+    display: none;
+    justify-content: center;
+}
