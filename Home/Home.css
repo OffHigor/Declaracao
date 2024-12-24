@@ -18,6 +18,25 @@ body{
     font-size: 18px;
     font-weight: 500;
 }
+.TituloApresentação{
+    display: flex;
+    flex-direction: column;
+    background-color: #5B61B2;
+    margin-top: 60px;
+}
+.RedesSóciais{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.linkredes{
+    width: 3%;
+    margin: 20px 30px 0px 0px;
+}
+.ImagemRedes{
+    width: 100%;
+    
+}
 .BlocoImagemNos{
     display: flex;
     flex-direction: row;
@@ -43,11 +62,14 @@ body{
 @media(min-width: 581px){
     .BlocoApresentacaoAmor{
         display: flex;
-        height: 400px;
+        flex-direction: column;
+        height: 100%;
+        margin-top: 30px;
+        padding: 0px 0px 10px 0px;
     }
     .ImgApresentacao{
         width: 65%;
-        height: 90%;
+        height: 100%;
         border-radius: 100%;
         
     }
@@ -58,7 +80,13 @@ body{
         height: 350px;
     }
 }
-
+h1{
+    margin: 0px 0px;
+}
+.Redirecionador{
+    display: flex;
+    flex-direction: row;
+}
 .BlocoApresentacaoAmor{
     background-color: #5B61B2;
 }
@@ -92,12 +120,7 @@ body{
 }
 
 
-.BlocoRodaPe{
-    background-color: #5B61B2;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-}
+
 .BlocoCarrosel{
     width: 60%;
     height: 400px;
@@ -109,4 +132,35 @@ body{
 }
 .imagemcarrosel{
     height: 100%;
+}
+
+
+
+
+.BlocoRodaPe{
+    background-color: #5B61B2;
+    display: flex;
+    flex-direction: column;
+}
+.LogoRodaPe{
+    width: 12%;
+    height: 150px;
+}
+.IconesRedes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.linkredes2{
+    width: 8%;
+    margin: 10px 30px 10px 0px;
+}
+.TextoRodaPe{
+    display: flex;
+    flex-direction: column;
+}
+.TxtRodaPe{
+    color: #DEC1DB;
+    display: flex;
+    justify-content: center;
 }
