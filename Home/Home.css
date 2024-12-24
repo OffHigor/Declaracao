@@ -3,6 +3,19 @@ body{
 }
 .navbar-expand-sm{
     background-color: #5B61B2;
+    height: 130px;
+}
+.Logo{
+    width: 120px;
+    height: 120px;
+}
+.ImagemLogo{
+    width: 100%;
+    height: 100%;
+}
+.Tamanhocabecario{
+    background-color: #5B61B2;
+    margin: 0px 0px 50px;
 }
 .BlocoImagemNos{
     display: flex;
@@ -44,11 +57,7 @@ body{
         height: 350px;
     }
 }
-.seta{
-   width: 200px;
-   height: 200px;
-   color: blue;
-}
+
 .BlocoApresentacaoAmor{
     background-color: #5B61B2;
 }
@@ -65,41 +74,22 @@ body{
 .Capa{
     display: flex;
     text-align: center;
-    justify-content: center;
-    
-    
-}
-.Tamanho{
-    width: 100%;
-    height: 100%;
+    justify-content: center;  
+    margin-top: 200px;
 }
 .central{
     display: flex;
-    justify-content: center;
-}
-.tamanhoblococarrosel{
-    width: 450px;
-    height: 350px;
-    margin-right: 0px;
-    display: none;
     justify-content: center;
 }
 .BlocoCarta{
     display: flex;
     flex-direction: column;
 }
-.ImagemCarta{
-    display: flex;
-    justify-content: center;
-}
 .ImgCarta{
     width: 512px;
     height: 512px;
 }
-.BotaoCarta{
-    display: flex;
-    justify-content: center;
-}
+
 
 .BlocoRodaPe{
     background-color: #5B61B2;
@@ -110,7 +100,7 @@ body{
 .BlocoCarrosel{
     width: 60%;
     height: 400px;
-    
+
     }
 .ImgCarrosel{
     width: 100%;
