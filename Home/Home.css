@@ -107,3 +107,15 @@ body{
     display: flex;
     flex-direction: column;
 }
+.BlocoCarrosel{
+    width: 60%;
+    height: 400px;
+    
+    }
+.ImgCarrosel{
+    width: 100%;
+    height: 100%;
+}
+.imagemcarrosel{
+    height: 100%;
+}
