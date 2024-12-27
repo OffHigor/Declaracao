@@ -29,20 +29,10 @@ body{
     flex-direction: row;
     justify-content: center;
 }
-
 .BlocoImagemNos{
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-.IconesNos{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.IconesInicial{
-    width: 33%;
-    height: 400px;
 }
 .centralap{
     display: flex;
@@ -59,9 +49,6 @@ body{
     }
     .BlocoImagemNos{
         padding: 40px 40px;
-    }
-    .IconesInicial{
-        height: 180px;
     }
     .Redirecionador{
     display: flex;
@@ -83,12 +70,10 @@ body{
     .BlocoImagemNos{
         padding: 50px 120px;
     }
-    .IconesInicial{
-        height: 350px;
-    }
+    
     .Redirecionador{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
     .linkredes{
     width: 3%;
@@ -126,12 +111,7 @@ h1{
 .ImgApresentacao{
     border-radius: 100%;
 }
-.Capa{
-    display: flex;
-    text-align: center;
-    justify-content: center;  
-    margin-top: 100px;
-}
+
 .central{
     display: flex;
     justify-content: center;
@@ -143,21 +123,41 @@ h1{
 .ImgCarta{
     width: 512px;
     height: 512px;
+    border-radius: 20px
 }
 
-
+.BlocoIconeNos{
+    display: flex;
+    justify-content: center;
+}
+.Icones{
+    display: flex;
+    flex-direction: column;
+}
+.imagens{
+    width: 512px;
+    height: 512px;
+}
 
 .BlocoCarrosel{
-    width: 60%;
-    height: 400px;
-
+    width: 50%;
+    height: 450px;
+    
     }
 .ImgCarrosel{
     width: 100%;
     height: 100%;
+    
+}
+.ImgCarrosell{
+    width: 100%;
+    height: 100%;
 }
 .imagemcarrosel{
+    width: 100%;
     height: 100%;
+    border-radius: 20px;
+    border: 4px solid #5B61B2;
 }
 
 
